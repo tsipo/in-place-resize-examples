@@ -1,0 +1,25 @@
+replicaCount: 1
+
+image:
+  pullPolicy: Never
+  tag: "latest"
+
+service:
+  type: ClusterIP
+  port: 8080
+
+resources:
+  requests:
+    cpu: "50m"
+    memory: "128Mi"
+  limits:
+    cpu: "500m"
+    memory: "256Mi"
+
+# Example env block
+# env:
+#   - name: MY_VAR
+#     value: "my-value"
+env: []
+
+namespace: app

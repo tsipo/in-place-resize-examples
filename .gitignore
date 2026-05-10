@@ -1,0 +1,11 @@
+**/results/*
+!**/results/.gitkeep
+**/.idea
+**/.vscode
+
+go/resize-demo-go
+java/*.class
+dotnet/bin/
+dotnet/obj/
+nodejs/node_modules/
+rust/target/*

@@ -1,0 +1,15 @@
+{
+  "name": "resize-demo-nodejs",
+  "version": "1.0.0",
+  "description": "Kubernetes in-place resize impact demo for a Node.js container",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "prom-client": "^15.1.3"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
